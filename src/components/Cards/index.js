@@ -5,19 +5,19 @@ import './style.css'
 class Cards extends Component {
     render() {
         return (
-            <div>
-                <img src="/images/alien.jpg" />
-                <img src="/images/belle.jpg" />
-                <img src="/images/genie.jpg" />
-                <img src="/images/glitch.jpg" />
-                <img src="/images/jasmine.jpg" />
-                <img src="/images/lilo.jpg" />
-                <img src="/images/mickey.jpg" />
-                <img src="/images/mulan.jpg" />
-                <img src="/images/ralph.jpg" />
-                <img src="/images/snowwhite.jpg" />
-                <img src="/images/stitch.jpg" />
-                <img src="/images/woody.jpg" />
+            <div className="card-container">
+                <img className="thumbnail" src="/images/alien.jpg" />
+                <img className="thumbnail" src="/images/belle.jpg" />
+                <img className="thumbnail" src="/images/genie.jpg" />
+                <img className="thumbnail" src="/images/glitch.jpg" />
+                <img className="thumbnail" src="/images/jasmine.jpg" />
+                <img className="thumbnail" src="/images/lilo.jpg" />
+                <img className="thumbnail" src="/images/mickey.jpg" />
+                <img className="thumbnail" src="/images/mulan.jpg" />
+                <img className="thumbnail" src="/images/ralph.jpg" />
+                <img className="thumbnail" src="/images/snowwhite.jpg" />
+                <img className="thumbnail" src="/images/stitch.jpg" />
+                <img className="thumbnail" src="/images/woody.jpg" />
             </div>
         );
     }

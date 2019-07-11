@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="App">
-        <div className="App-body">
+      <div className="App mb-auto">
+        <div className="App-body p-sm-2 p-md-4">
           <Cards />
         </div>
       </div>
