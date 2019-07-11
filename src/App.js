@@ -9,10 +9,9 @@ function App() {
     <div>
       <Navbar />
       <div className="App">
-        <header className="App-header">
-          Hello
+        <div className="App-body">
           <Cards />
-        </header>
+        </div>
       </div>
       <Footer />
     </div>

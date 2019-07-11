@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.App-header {
+.App-body {
   background-color: #282c34;
   min-height: calc(100vh - 183px);
   display: flex;
