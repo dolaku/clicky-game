@@ -7,7 +7,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white sticky-top d-flex justify-content-around">
                 <h2>Clicky Game</h2>
-                <h2>Score: </h2>
+                <h2>Score: 5 | Top Score: 8</h2>
             </nav>
         );
     }
