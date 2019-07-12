@@ -10,7 +10,7 @@ class App extends React.Component {
     funkoPops,
     clickedPops: [],
     score: 0,
-    topScore: 0
+    topScore: 10
   };
 
   handleClick = (id) => {
@@ -21,13 +21,19 @@ class App extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <Navbar />
+        <Navbar 
+        // pass info to NavBar component
+          score={this.state.score}  
+          topScore={this.state.topScore}  
+        />
         
         <div className="App p-2">
           <div className="App-body mx-auto p-sm-2 p-md-4">
             
+            {/* cycle through array & create Cards component */}
             {this.state.funkoPops.map(item => (
               <Cards 
+              // pass info to Cards component
                 key={item.name}
                 id={item.id}
                 image={item.image}
