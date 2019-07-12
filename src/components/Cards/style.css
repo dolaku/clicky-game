@@ -1,10 +1,5 @@
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
-}
-
 .thumbnail {
+    border-radius: 5px;
     object-fit: cover;
     width: 100%;
 }
