@@ -1,74 +1,50 @@
 [
     {
-        "id": 1,
-        "name": "alien",
-        "image": "./images/alien.jpg",
-        "clicked": false
+        "id": "alien",
+        "image": "./images/alien.jpg"
     },
     {
-        "id": 2,
-        "name": "belle",
-        "image": "./images/belle.jpg",
-        "clicked": false
+        "id": "belle",
+        "image": "./images/belle.jpg"
     },
     {
-        "id": 3,
-        "name": "genie",
-        "image": "./images/genie.jpg",
-        "clicked": false
+        "id": "genie",
+        "image": "./images/genie.jpg"
     },
     {
-        "id": 4,
-        "name": "glitch",
-        "image": "./images/glitch.jpg",
-        "clicked": false
+        "id": "glitch",
+        "image": "./images/glitch.jpg"
     },
     {
-        "id": 5,
-        "name": "jasmine",
-        "image": "./images/jasmine.jpg",
-        "clicked": false
+        "id": "jasmine",
+        "image": "./images/jasmine.jpg"
     },
     {
-        "id": 6,
-        "name": "lilo",
-        "image": "./images/lilo.jpg",
-        "clicked": false
+        "id": "lilo",
+        "image": "./images/lilo.jpg"
     },
     {
-        "id": 7,
-        "name": "mickey",
-        "image": "./images/mickey.jpg",
-        "clicked": false
+        "id": "mickey",
+        "image": "./images/mickey.jpg"
     },
     {
-        "id": 8,
-        "name": "mulan",
-        "image": "./images/mulan.jpg",
-        "clicked": false
+        "id": "mulan",
+        "image": "./images/mulan.jpg"
     },
     {
-        "id": 9,
-        "name": "ralph",
-        "image": "./images/ralph.jpg",
-        "clicked": false
+        "id": "ralph",
+        "image": "./images/ralph.jpg"
     },
     {
-        "id": 10,
-        "name": "snowwhite",
-        "image": "./images/snowwhite.jpg",
-        "clicked": false
+        "id": "snowwhite",
+        "image": "./images/snowwhite.jpg"
     },
     {
-        "id": 11,
-        "name": "stitch",
-        "image": "./images/stitch.jpg",
-        "clicked": false
+        "id": "stitch",
+        "image": "./images/stitch.jpg"
     },
     {
-        "id": 12,
-        "name": "woody",
-        "image": "./images/woody.jpg",
-        "clicked": false
+        "id": "woody",
+        "image": "./images/woody.jpg"
     }
 ]

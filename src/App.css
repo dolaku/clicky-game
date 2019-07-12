@@ -4,9 +4,20 @@
 
 .App-body {
   display: grid;
+  filter: drop-shadow(2px 4px 6px black);
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   max-width: 850px;
+}
+
+.correct {
+  filter: drop-shadow(1px 1px 5px rgba(63, 255, 63, 0.5));
+  transition: ease-in-out;
+}
+
+.incorrect {
+  filter: drop-shadow(1px 1px 5px rgba(255, 0, 0, 0.5));
+  transition: ease-in-out;
 }
 
 @media only screen and (max-width: 500px) {

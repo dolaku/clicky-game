@@ -6,8 +6,8 @@ const Cards = (props) => (
     <img 
         className="thumbnail" 
         src={props.image}
-        alt={props.name}
-        key={props.name}
+        alt={props.id}
+        key={props.id}
         id={props.id}
         onClick={props.handleClick}
     />
