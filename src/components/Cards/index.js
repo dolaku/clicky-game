@@ -9,7 +9,7 @@ const Cards = (props) => (
         alt={props.name}
         key={props.name}
         id={props.id}
-        onClick={props.click}
+        onClick={props.handleClick}
     />
 );
     

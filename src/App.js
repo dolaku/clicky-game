@@ -37,6 +37,7 @@ class App extends React.Component {
                 key={item.name}
                 id={item.id}
                 image={item.image}
+                handleClick={this.handleClick}
               />
             ))}
           
