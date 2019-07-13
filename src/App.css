@@ -1,22 +1,26 @@
+a:hover {
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
 
 .App-body {
   display: grid;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px #000);
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  max-width: 850px;
+  max-width: 825px;
 }
 
 .correct {
-  filter: drop-shadow(1px 1px 5px rgba(63, 255, 63, 0.5));
+  filter: drop-shadow(1px 1px 5px #3fff3f80);
   transition: ease-in-out;
 }
 
 .incorrect {
-  filter: drop-shadow(1px 1px 5px rgba(255, 0, 0, 0.5));
+  filter: drop-shadow(1px 1px 5px #ff000080);
   transition: ease-in-out;
 }
 

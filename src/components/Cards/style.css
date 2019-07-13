@@ -3,3 +3,7 @@
     object-fit: cover;
     width: 100%;
 }
+
+.thumbnail:hover {
+    filter: drop-shadow(0 0 7px #59bdff);
+}
